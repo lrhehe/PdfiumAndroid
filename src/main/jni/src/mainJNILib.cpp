@@ -45,7 +45,7 @@ class DocumentFile {
     int fileFd;
 
     public:
-    FPDF_DOCUMENT pdfDocument = NULL;
+    FPDF_DOCUMENT pdfDocument;
     size_t fileSize;
 
     DocumentFile() { initLibraryIfNeed(); }
